@@ -1,3 +1,4 @@
+2.35.1	Arabic translation added to LINGUAS
 2.35	45 commits
 	Dropping autotools, only meson now
 	Translations updated
