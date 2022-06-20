@@ -237,3 +237,64 @@ xkb_symbols "colemak-gaming" {
 
     include "level3(ralt_switch)"
 };
+
+partial alphanumeric_keys
+xkb_symbols "mac" {
+    name[Group1]="Spanish (Latin American, Mac)";
+    key <TLDE> { [	less,      greater, lessthanequal, greaterthanequal ] };
+    key <AE01> { [	1,       exclam,   exclamdown ] };	
+    key <AE02> { [	2,     quotedbl, leftdoublequotemark, rightdoublequotemark ] };
+    key <AE03> { [	3,   numbersign,     sterling,        U2039 ] };
+    key <AE04> { [	4,       dollar,         cent,        U203A ] };
+    key <AE05> { [	5,      percent,     infinity,     permille ] };
+    key <AE06> { [	6,    ampersand,      section ] };
+    key <AE07> { [	7,        slash,    paragraph,        U2044 ] };
+    key <AE08> { [	8,    parenleft,        U2022 ] };
+    key <AE09> { [	9,   parenright,  ordfeminine, periodcentered ] };
+    key <AE10> { [	0,        equal,    masculine, leftsinglequotemark ] };
+    key <AE11> { [   		apostrophe,     question,    backslash, rightsinglequotemark ] };
+    key <AE12> { [ 		questiondown,   exclamdown,     notequal,    plusminus ] };
+
+    key <AD01> { [	q,	Q,           at,    trademark ] };
+    key <AD02> { [	w,	W,        U2211 ] };
+    key <AD03> { [	e,	E,     EuroSign ] };
+    key <AD04> { [	r,	R,   registered ] };
+    key <AD05> { [	t,	T,       dagger, doubledagger ] };
+    key <AD06> { [	y,	Y,          yen ] };
+    key <AD07> { [	u,	U,    dead_diaeresis,    diaeresis ] };
+    key <AD08> { [	i,	I,     idotless,    Iabovedot ] };
+    key <AD09> { [	o,	O,       oslash,       Oslash ] };
+    key <AD10> { [	p,	P,     Greek_pi,        U220F ] };
+    key <AD11> { [	dead_acute,    dead_diaeresis, guillemotleft, guillemotright ] };
+    key <AD12> { [	plus,     asterisk,   dead_tilde,   asciitilde ] };
+
+    key <AC01> { [	a,	A ] };
+    key <AC02> { [	s,	S,       ssharp ] };
+    key <AC03> { [	d,	D, partialderivative,        U2206 ] };
+    key <AC04> { [	f,	F,     function ] };
+    key <AC05> { [	g,	G,    copyright ] };
+    key <AC06> { [	h,	H ] };
+    key <AC07> { [	j,	J ] };
+    key <AC08> { [	k,	K,        UF8FF ] };
+    key <AC09> { [	l,	L,  Greek_lamda ] };
+    key <AC10> { [       ntilde,       Ntilde,   asciitilde,   dead_tilde ] };
+    key <AC11> { [    braceleft,  bracketleft,  dead_circumflex,  asciicircum ] };
+    key <BKSL> { [   braceright, bracketright,        dead_grave,        grave ] };
+
+    key <AB01> { [	z,	Z,  Greek_OMEGA ] };
+    key <AB02> { [	x,	X,        U2248 ] };
+    key <AB03> { [	c,	C,     ccedilla,     Ccedilla ] };
+    key <AB04> { [	v,	V,      radical,        U25CA ] };
+    key <AB05> { [	b,	B,     integral ] };
+    key <AB06> { [	n,	N,   dead_tilde,   asciitilde ] };
+    key <AB07> { [	m,	M,           mu ] };
+    key <AB08> { [        comma,    semicolon ] };
+    key <AB09> { [       period,        colon,     ellipsis ] };
+    key <AB10> { [        minus,   underscore,       endash,       emdash ] };
+
+    key <SPCE> { [        space,        space, nobreakspace,        U202F ] };
+    key <KPDL> { [       period,       period,       period,       period ] };
+    key <LSGT> { [          bar,       degree,      notsign,        grave ] };
+
+    include "level3(ralt_switch)"
+};
